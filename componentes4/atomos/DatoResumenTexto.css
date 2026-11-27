@@ -1,0 +1,16 @@
+.atomo-dato-resumen {
+  margin-bottom: 16px;
+}
+
+.dato-resumen-titulo {
+  font-size: 13px;
+  font-weight: 700;
+  color: #be185d;
+  margin-bottom: 4px;
+}
+
+.dato-resumen-valor {
+  font-size: 13px;
+  color: #4b5563;
+  line-height: 1.45;
+}

@@ -1,0 +1,17 @@
+.atomo-btn-me-gusta {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.92);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.atomo-btn-me-gusta:hover {
+  background-color: #fce7f3;
+  transform: scale(1.05);
+}

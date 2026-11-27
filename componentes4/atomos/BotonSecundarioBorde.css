@@ -1,0 +1,18 @@
+.atomo-btn-secundario-borde {
+  width: 100%;
+  background-color: #ffffff;
+  color: #db2777;
+  font-size: 14px;
+  font-weight: 700;
+  border: 1.5px solid #db2777;
+  border-radius: 10px;
+  padding: 13px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.atomo-btn-secundario-borde:hover {
+  background-color: #fdf2f8;
+  color: #be185d;
+  border-color: #be185d;
+}

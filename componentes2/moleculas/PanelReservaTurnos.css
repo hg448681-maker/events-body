@@ -1,0 +1,100 @@
+.molecula-panel-reserva-turnos {
+  padding: 6px 18px 18px 18px;
+  background-color: #ffffff;
+}
+
+.filtros-reserva-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 16px 0;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #fce7f3;
+}
+
+.dropdown-contenedor {
+  position: relative;
+}
+
+.btn-dropdown-limpio {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: #db2777;
+  cursor: pointer;
+  padding: 4px 2px;
+  transition: color 0.2s ease;
+}
+
+.btn-dropdown-limpio:hover {
+  color: #be185d;
+}
+
+.menu-dropdown-flotante {
+  position: absolute;
+  top: 34px;
+  min-width: 145px;
+  background-color: #ffffff;
+  border: 1px solid #fbcfe8;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(219, 39, 119, 0.14);
+  padding: 6px;
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.menu-dropdown-flotante.izquierda {
+  left: 0;
+}
+
+.menu-dropdown-flotante.derecha {
+  right: 0;
+}
+
+.opcion-dropdown {
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #374151;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.opcion-dropdown:hover {
+  background-color: #fdf2f8;
+  color: #db2777;
+}
+
+.opcion-dropdown.activa {
+  background-color: #db2777;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.bloque-turno {
+  margin-bottom: 18px;
+}
+
+.turno-titulo {
+  font-size: 15px;
+  font-weight: 700;
+  color: #111827;
+  margin-bottom: 12px;
+}
+
+.grid-horas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}

@@ -1,0 +1,60 @@
+.molecula-ficha-plan {
+  width: 305px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.ficha-plan-imagen-box {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  border: 1.5px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.molecula-ficha-plan:hover .ficha-plan-imagen-box {
+  border-color: #fbcfe8;
+}
+
+.ficha-plan-foto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ficha-plan-overlay-top {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  right: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ficha-plan-titulo-fila {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+
+.ficha-plan-titulo {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111827;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ficha-plan-meta-fila {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 4px;
+}

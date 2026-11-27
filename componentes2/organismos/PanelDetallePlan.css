@@ -1,0 +1,39 @@
+.organismo-panel-detalle-plan {
+  width: 100%;
+  max-width: 390px;
+  min-height: 844px;
+  background-color: #ffffff;
+  padding-bottom: 24px;
+  border-top: 3px solid #db2777;
+}
+
+.detalle-cargando-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.detalle-spinner-rosa {
+  width: 30px;
+  height: 30px;
+  border: 3px solid #fbcfe8;
+  border-top-color: #db2777;
+  border-radius: 50%;
+  animation: girarDetalle 0.8s linear infinite;
+}
+
+.detalle-cargando-texto {
+  color: #be185d;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+@keyframes girarDetalle {
+  to {
+    transform: rotate(360deg);
+  }
+}

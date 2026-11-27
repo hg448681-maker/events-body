@@ -1,0 +1,16 @@
+.atomo-btn-obtener-puntos {
+  background-color: #ffffff;
+  color: #db2777;
+  font-size: 13px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 22px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.atomo-btn-obtener-puntos:hover {
+  background-color: #fce7f3;
+  color: #be185d;
+}

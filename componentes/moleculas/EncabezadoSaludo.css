@@ -1,0 +1,55 @@
+.molecula-encabezado-saludo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 18px 18px 18px;
+}
+
+.encabezado-saludo-grupo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.encabezado-saludo-titulo {
+  font-size: 24px;
+  font-weight: 800;
+  color: #111827;
+}
+
+.encabezado-saludo-acciones {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.btn-notificaciones {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.btn-notificaciones:hover {
+  background-color: #fce7f3;
+}
+
+.btn-notificaciones img {
+  width: 26px !important;
+  height: 26px !important;
+}
+
+.avatar-perfil {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2.5px solid #f472b6;
+  background-color: #fce7f3;
+}
