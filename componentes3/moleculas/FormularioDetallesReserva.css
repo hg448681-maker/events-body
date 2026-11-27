@@ -1,0 +1,148 @@
+.molecula-form-detalles-reserva {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.form-detalles-titulo {
+  font-size: 17px;
+  font-weight: 700;
+  color: #4b5563;
+  margin-bottom: 16px;
+}
+
+.detalles-campo-grupo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.detalles-campo-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.campo-telefono-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  padding: 0 12px;
+  background-color: #ffffff;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.campo-telefono-box:focus-within {
+  border-color: #db2777;
+  box-shadow: 0 0 0 3px rgba(219, 39, 119, 0.14);
+}
+
+.telefono-bandera-grupo {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-right: 8px;
+}
+
+.telefono-input {
+  flex: 1;
+  border: none;
+  padding: 12px 6px;
+  font-size: 13px;
+  color: #111827;
+  outline: none;
+  background: transparent;
+}
+
+.select-occasion-box {
+  position: relative;
+  width: 100%;
+}
+
+.btn-occasion-moderno {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-size: 13px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-occasion-moderno:focus,
+.btn-occasion-moderno:hover {
+  border-color: #db2777;
+  box-shadow: 0 0 0 3px rgba(219, 39, 119, 0.12);
+}
+
+.lista-occasion-flotante {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  border: 1px solid #fbcfe8;
+  border-radius: 12px;
+  box-shadow: 0 12px 28px rgba(219, 39, 119, 0.14);
+  padding: 6px;
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.item-occasion-opcion {
+  width: 100%;
+  text-align: left;
+  background: transparent;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #374151;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.item-occasion-opcion:hover {
+  background-color: #fdf2f8;
+  color: #db2777;
+}
+
+.item-occasion-opcion.activa {
+  background-color: #db2777;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.terminos-fila {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 16px 0 22px 0;
+}
+
+.terminos-check {
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  accent-color: #db2777;
+  cursor: pointer;
+}
+
+.terminos-texto {
+  font-size: 12px;
+  color: #4b5563;
+  line-height: 1.4;
+}
+
+.terminos-link {
+  color: #db2777;
+  font-weight: 700;
+}

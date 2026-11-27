@@ -1,0 +1,13 @@
+.atomo-item-dato-contacto {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0;
+  font-size: 13px;
+  color: #374151;
+  transition: color 0.2s ease;
+}
+
+.atomo-item-dato-contacto:hover {
+  color: #db2777;
+}

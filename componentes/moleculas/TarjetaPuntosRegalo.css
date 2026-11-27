@@ -1,0 +1,65 @@
+.molecula-tarjeta-puntos-regalo-wrapper {
+  padding: 0 16px 18px 16px;
+}
+
+.tarjeta-puntos-regalo-rosa {
+  background: linear-gradient(135deg, #db2777 0%, #9d174d 100%);
+  border-radius: 18px;
+  padding: 20px 18px;
+  color: #ffffff;
+}
+
+.tarjeta-puntos-regalo-fila-superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.tarjeta-puntos-regalo-titulo {
+  font-size: 13px;
+  font-weight: 500;
+  color: #fbcfe8;
+  margin-bottom: 6px;
+}
+
+.tarjeta-puntos-regalo-puntos-valor {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.tarjeta-puntos-regalo-puntos-valor span {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.tarjeta-puntos-regalo-subtitulo {
+  font-size: 12px;
+  color: #fbcfe8;
+  margin-bottom: 16px;
+  white-space: nowrap;
+}
+
+.tarjeta-puntos-regalo-caja-regalo {
+  background-color: rgba(255, 255, 255, 0.14);
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 12px;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.tarjeta-puntos-regalo-regalo-titulo {
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.tarjeta-puntos-regalo-regalo-sub {
+  font-size: 11px;
+  color: #fce7f3;
+}

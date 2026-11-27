@@ -1,0 +1,21 @@
+.atomo-boton-accion-rapida {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: #ffffff;
+  border: 1px solid #fbcfe8;
+  border-radius: 20px;
+  padding: 7px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #111827;
+  cursor: pointer;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.atomo-boton-accion-rapida:hover {
+  background-color: #fdf2f8;
+  border-color: #db2777;
+  color: #db2777;
+}

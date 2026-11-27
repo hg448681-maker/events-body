@@ -1,0 +1,101 @@
+.molecula-cabecera-resumen-reserva {
+  padding: 24px 20px 14px 20px;
+  background-color: #ffffff;
+}
+
+.btn-volver-simple {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background-color: #fdf2f8;
+  border: 1px solid #fbcfe8;
+  font-size: 22px;
+  font-weight: 600;
+  color: #db2777;
+  cursor: pointer;
+  margin-bottom: 14px;
+  padding: 0;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.btn-volver-simple:hover {
+  background-color: #db2777;
+  border-color: #db2777;
+  color: #ffffff;
+}
+
+.resumen-titulo-pagina {
+  font-size: 24px;
+  font-weight: 800;
+  color: #111827;
+  margin-bottom: 6px;
+}
+
+.resumen-subtitulo-pagina {
+  font-size: 13px;
+  color: #be185d;
+  font-weight: 500;
+  margin-bottom: 22px;
+}
+
+.tarjeta-mini-lugar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px;
+  border-radius: 16px;
+  background-color: #fdf2f8;
+  border: 1px solid #fbcfe8;
+}
+
+.mini-lugar-foto {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 1px solid #f472b6;
+}
+
+.mini-lugar-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.mini-lugar-titulo {
+  font-size: 17px;
+  font-weight: 800;
+  color: #111827;
+  margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.mini-lugar-dato {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #4b5563;
+  margin-bottom: 10px;
+}
+
+.mini-lugar-meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #db2777;
+}
+
+.meta-par {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
